@@ -35,6 +35,6 @@ The datasets used in this project are provided by the authors of TransUnet. You 
 To train the model on the Synapse dataset, you can run the Python training script with the following command:
 
 ```bash
-
+python train.py --dataset Synapse --root_path your DATA_DIR --max_epochs 200 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.001 --batch_size 16
 
 
