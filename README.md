@@ -36,6 +36,6 @@ To train the model on the Synapse dataset, you can either use the provided `trai
 
 #### Using `train.sh` script:
 ```bash
-sh train.sh
+
 
 
