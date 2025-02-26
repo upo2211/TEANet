@@ -32,9 +32,8 @@ The datasets used in this project are provided by the authors of TransUnet. You 
 
 ### Training
 
-To train the model on the Synapse dataset, you can either use the provided `train.sh` script or run the Python training script with the following command:
+To train the model on the Synapse dataset, you can run the Python training script with the following command:
 
-#### Using `train.sh` script:
 ```bash
 
 
