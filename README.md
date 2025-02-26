@@ -38,7 +38,6 @@ To train the model on the Synapse dataset, you can run the Python training scrip
 python train.py --dataset Synapse --root_path your DATA_DIR --max_epochs 200 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.001 --batch_size 16
 
 ### Testing
-```bash
-sh test.sh or python test.py --dataset Synapse --is_saveni --volume_path your DATA_DIR --output_dir your OUT_DIR --max_epoch 200 --base_lr 0.001 --img_size 224 --batch_size 16
+python test.py --dataset Synapse --is_saveni --volume_path your DATA_DIR --output_dir your OUT_DIR --max_epoch 200 --base_lr 0.001 --img_size 224 --batch_size 16
 
 
